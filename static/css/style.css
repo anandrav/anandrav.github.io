@@ -9,17 +9,17 @@ a {
 }
 
 #backstretch {
-    padding: 100px;
-    background-color: rgba(0, 0, 0, 0.651);
+    background-image: url("../images/ann_arbor.jpg");
+    background-size: cover;
 }
 
 #top_summary {
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
-    width: 300px;
     text-align: center;
     color: white;
+    background-color: rgba(32, 32, 32, 0.678);
 }
 
 .top_summary_line_large {
@@ -33,7 +33,7 @@ a {
 }
 
 #nav_bar {
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: rgba(32, 32, 32, 0.925);
     text-align: center;
 }
 
@@ -42,4 +42,8 @@ a {
     padding: 10px;
     margin: 10px;
     font-size: 18px;
+}
+
+#background {
+    
 }
