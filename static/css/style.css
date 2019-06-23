@@ -3,27 +3,43 @@ body {
     padding: 0;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 #backstretch {
-    padding: 150px;
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.651);
 }
 
 #top_summary {
-    background-color: rgb(107, 105, 212);
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
     width: 300px;
     text-align: center;
+    color: white;
+}
+
+.top_summary_line_large {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.top_summary_line {
+    font-size: 18px;
+    margin: 5px;
 }
 
 #nav_bar {
-    background-color: rgb(118, 118, 194);
+    background-color: rgba(0, 0, 0, 0.753);
     text-align: center;
 }
 
 .nav_button {
-    background-color: rgb(112, 209, 112);
     display: inline-block;
     padding: 10px;
     margin: 10px;
+    font-size: 18px;
 }
