@@ -1,0 +1,9 @@
+#top_summary {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+p {
+    color: red;
+}
