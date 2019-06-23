@@ -1,9 +1,24 @@
+#backstretch {
+    padding: 150px;
+}
+
 #top_summary {
+    background-color: rgb(107, 105, 212);
     margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
     width: 300px;
     text-align: center;
 }
 
-p {
-    color: red;
+#nav_bar {
+    background-color: rgb(118, 118, 194);
+    text-align: center;
+}
+
+.nav_button {
+    background-color: rgb(112, 209, 112);
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
 }
