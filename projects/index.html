@@ -2,63 +2,72 @@
 <html>
     <head>
         <title>
-            Anand Dukkipati: Projects
+            Projects | Anand Dukkipati
         </title>
         <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div id="backstretch" >
-            <div id="top_summary">
-                <p class="top_summary_line_large">Anand Dukkipati</p>
-                <p class="top_summary_line">University of Michigan '21</p>
-                <p class="top_summary_line">Computer Science</p>
-                <p class="top_summary_line">Stuff</p>
-                <p class="top_summary_line">More Stuff</p>
-                <p class="top_summary_line">I am awesome.</p>
+            <div id="top_summary_container">
+                <div id="top_summary_left">
+                    <p class="top_summary_line_large">Anand Dukkipati</p>
+                    <p class="top_summary_line">University of Michigan '21</p>
+                    <p class="top_summary_line">Computer Science</p>
+                </div>
+                <div id="top_summary_right">
+                    <p class="top_summary_line_small"><i class="fa fa-envelope" title="Mail"></i><a style="margin-left:10px;text-decoration:none;">anandrav@umich.edu</a></p>
+                    <p class="top_summary_line_small"><i class="fa fa-linkedin-square" title="LinkedIn"></i><a style="margin-left: 10px;" href="https://www.linkedin.com/in/anand-dukkipati-17014a102/">anand.dukkipati</a></p>
+                    <hr/>
+                    <p class="top_summary_line_small"> <a href="/resume/resume.pdf"> resume.pdf</a></p>
+                </div>
             </div>
-            <ul id="nav_bar">
-                <li class="nav_button"><a href="/">Home</a></li>
-                <li class="nav_button"><a href="/projects">Projects</a></li>
-                <!-- <li class="nav_button"><a href="resume">Resume</a></li>
-                <li class="nav_button"><a href="contact">Contact</a></li> -->
-            </ul>
+            <ul class="nav_bar">
+                    <li class="nav_button">
+                    <a href="/index.html">Home</a></li><li class="nav_button_selected">
+                    <a href="/projects/index.html">Projects</a></li>
+
+                </div>
             <div class="container">
                 <div class="section">
                     <h2 class="section_heading">Projects</h2>
                     <hr/>
                     <div class="section_body">
                         <div class="project_container">
-                            <img class="project_img" src="/static/images/ann_arbor.jpg" alt="project image">
+                            <img class="project_img" src="/static/images/animation_maker.PNG" alt="project image">
                             <div class="project_desc">
                                 <p class="project_desc_title">
-                                    Project Title
+                                    Animation Maker
                                 </p>
                                 <p class="project_desc_body">
-                                    This project is a good project. I learned lots from it. Etc. Etc.
+                                    An Android app for making cartoons by drawing each frame. Still a work in progress.
                                 </p>
-                                <a class="project_desc_link" href="https://www.linktotheproject.com">
-                                    linktotheproject.com
+                                <a class="project_desc_link" href="https://play.google.com/store/apps/details?id=com.arduk.animationcreator">
+                                    Play Store
+                                </a>
+                                <a class="project_desc_link" href="https://play.google.com/store/apps/details?id=com.arduk.animationcreator">
+                                    Github
                                 </a>
                             </div>
                         </div>
 
                         <div class="project_container">
-                                <img class="project_img" src="/static/images/ann_arbor.jpg" alt="project image">
-                                <div class="project_desc">
-                                    <p class="project_desc_title">
-                                        Project Title
-                                    </p>
-                                    <p class="project_desc_body">
-                                        This project is a good project. I learned lots from it. Etc. Etc.
-                                    </p>
-                                    <a class="project_desc_link" href="https://www.linktotheproject.com">
-                                        linktotheproject.com
-                                    </a>
-                                </div>
+                            <img class="project_img" src="/static/images/insta485.PNG" alt="project image">
+                            <div class="project_desc">
+                                <p class="project_desc_title">
+                                    Insta485
+                                </p>
+                                <p class="project_desc_body">
+                                    I made a copy of Instagram for a class project, using Flask and React. You can post images, follow other people, etc. Try it out for yourself! It's hosted on Amazon Web Service (AWS).
+                                </p>
+                                <a class="project_desc_link" href="http://ec2-3-17-131-121.us-east-2.compute.amazonaws.com/">
+                                    link
+                                </a>
+                            </div>
                         </div>
-
+<!-- 
                         <div class="project_container">
-                                <img class="project_img" src="/static/images/ann_arbor.jpg" alt="project image">
+                                <img class="project_img" src="../static/images/ann_arbor.jpg" alt="project image">
                                 <div class="project_desc">
                                     <p class="project_desc_title">
                                         Project Title
@@ -70,10 +79,14 @@
                                         linktotheproject.com
                                     </a>
                                 </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
+            <div class="bottom_bar">
+                    <hr />
+                    <p style="text-align: center;">Copyright © 2019 Anand Dukkipati.</p>
+                </div>
         </div>
     </body>
 </html>
