@@ -35,30 +35,26 @@ hr {
     overflow: hidden;
     text-align: center;
 }
-    #top_summary_container hr {
-        border: 0.5px solid white;
-        margin: 10px;
-    }
 
-#top_summary_left {
-    padding: 10px;
-    display: inline-block;
-    text-align: center;
-    color: white;
+#top_summary_container hr {
+    border: 0.5px solid white;
+    margin: 10px;
 }
 
-#top_summary_divider {
-    width: 0.5px;
+#top_summary_left {
+    vertical-align: middle;
+    text-align: center;
     color: white;
-    height: 100px;
+    display: inline-block;
 }
 
 #top_summary_right {
-    border-left: 1px solid white;
-    padding: 10px 30px;
-    display: inline-block;
-    text-align: left;
+    vertical-align: middle;
+    text-align: center;
     color: white;
+    display: inline-block;
+    border-left: 1px solid white;
+    text-align: left;
 }
 
 .top_summary_line_large {
